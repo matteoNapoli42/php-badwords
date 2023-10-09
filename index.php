@@ -10,8 +10,8 @@
 <body>
     <h1>Censura una parola</h1>
     <form action="script.php">
-        <input type="text" placeholder="Scrivi una frase">
-        <input type="text" placeholder="Scrivi quale parola vuoi bannare">
+        <input type="text" name="insertedSentence" placeholder="Scrivi una frase">
+        <input type="text" name="censoredWord" placeholder="Scrivi quale parola vuoi bannare">
         <button type="submit">Premi per censurare</button>
     </form>
 </body>
